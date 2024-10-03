@@ -54,7 +54,7 @@ nav .container ul a {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: whi;
   }
   a {
     display: none;
@@ -132,8 +132,21 @@ header p {
   font-size: 18px;
 }
 
-@media (max-width: 768) {
-  .container {
-    max-width: 768px;
+@media (max-width: 900px) {
+  .navv1 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  a {
+    display: none;
+  }
+  input:checked + .sidebar {
+    left: 0;
+  }
+  input {
+    display: block;
   }
 }/*# sourceMappingURL=main.css.map */
