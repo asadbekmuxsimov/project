@@ -1,35 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-.container {
-  width: 100%;
-  margin: 0 auto;
-  max-width: 1400px;
-}
-
-.page {
+nav {
   background-color: rgb(49, 46, 46);
 }
-.page .container nav {
+nav .container {
+  background-color: rgb(49, 46, 46);
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
 }
-.page .container nav ul {
+nav .container ul {
   list-style-type: none;
   display: flex;
   gap: 20px;
   align-items: center;
 }
-.page .container nav ul a {
+nav .container ul a {
   text-decoration: none;
   color: white;
 }
 
-.page3 {
+footer {
   margin-top: 50px;
   background-color: rgb(49, 46, 46);
 }
-.page3 .container .page-div {
+footer .container {
   color: white;
   text-align: center;
   padding: 20px;
@@ -45,54 +40,48 @@
 .container {
   width: 100%;
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: 1440px;
 }
 
-.page1 {
-  background-color: royalblue;
-}
-.page1 .container .mean {
-  color: white;
+main {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.page1 .container .mean h1 {
-  padding-bottom: 20px;
+main h2 {
   font-size: 36px;
+  padding-bottom: 20px;
 }
-.page1 .container .mean p {
+main p {
   font-size: 18px;
+  margin-bottom: 50px;
 }
 
-.page2 .container .hero {
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.page2 .container .hero h2 {
-  font-size: 36px;
-  padding-bottom: 20px;
-}
-.page2 .container .hero p {
-  font-size: 24px;
-}
-.page2 .container .pagee {
+div {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
   justify-content: center;
 }
-.page2 .container .pagee img {
+div img {
   width: 400px;
   border-radius: 10px;
 }
-.page2 .container .pagee img:hover {
+div img:hover {
   transform: scale(1.05);
 }
 
-@media (max-width: 768) {
-  .pagee {
-    flex-wrap: wrap;
-  }
+header {
+  background-color: royalblue;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+header h1 {
+  padding-bottom: 20px;
+  font-size: 36px;
+}
+header p {
+  font-size: 18px;
 }/*# sourceMappingURL=main.css.map */
