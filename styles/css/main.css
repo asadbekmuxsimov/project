@@ -2,6 +2,34 @@
 nav {
   background-color: rgb(49, 46, 46);
 }
+nav input {
+  display: none;
+}
+nav .navv1 {
+  display: none;
+}
+nav .sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  left: 100%;
+  padding-top: 30px;
+  padding-inline: 50px;
+  background-color: rgb(213, 213, 213);
+  width: 100vw;
+  transition: all 1s;
+}
+nav .sidebar .sidebar-top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  margin-bottom: 30px;
+}
 nav .container {
   background-color: rgb(49, 46, 46);
   display: flex;
@@ -20,14 +48,32 @@ nav .container ul a {
   color: white;
 }
 
+@media (max-width: 900px) {
+  .navv1 {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  a {
+    display: none;
+  }
+  input:checked + .sidebar {
+    left: 0;
+  }
+  input {
+    display: block;
+  }
+}
 footer {
-  margin-top: 50px;
+  margin-top: 10px;
   background-color: rgb(49, 46, 46);
 }
 footer .container {
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
 }
 
 * {
@@ -46,7 +92,7 @@ footer .container {
 main {
   text-align: center;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 main h2 {
   font-size: 36px;
@@ -84,4 +130,10 @@ header h1 {
 }
 header p {
   font-size: 18px;
+}
+
+@media (max-width: 768) {
+  .container {
+    max-width: 768px;
+  }
 }/*# sourceMappingURL=main.css.map */

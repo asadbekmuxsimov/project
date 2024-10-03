@@ -1,0 +1,36 @@
+main {
+  section {
+    .color-box {
+      padding: 20px;
+      color: white;
+      margin: 10px auto;
+      width: 80%;
+      max-width: 600px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .rgb {
+      background-color: rgb(70, 130, 180);
+    }
+
+    .rgba {
+        background-color: rgba(70, 130, 180, 0.7);
+    }
+    
+    .hex {
+        background-color: #4682b4;
+    }
+    
+    
+  }
+
+  Iframe {
+    max-width: 800px;
+    width: 80%;
+    border: 3px solid #007bff;
+    height: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+}
