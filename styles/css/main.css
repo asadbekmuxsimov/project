@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lexend;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.page {
+  background-color: rgb(49, 46, 46);
+}
+.page .container nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.page .container nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.page .container nav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.page1 {
+  background-color: royalblue;
+}
+.page1 .container .mean {
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.page1 .container .mean h1 {
+  padding-bottom: 20px;
+  font-size: 36px;
+}
+.page1 .container .mean p {
+  font-size: 18px;
+}
+
+.page2 .container .hero {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.page2 .container .hero h2 {
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+.page2 .container .hero p {
+  font-size: 24px;
+}
+.page2 .container .pagee {
+  display: flex;
+  gap: 30px;
+}
+.page2 .container .pagee img {
+  width: 450px;
+  border-radius: 10px;
+}
+
+.page3 {
+  margin-top: 50px;
+  background-color: rgb(49, 46, 46);
+}
+.page3 .container .page-div {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}/*# sourceMappingURL=main.css.map */
